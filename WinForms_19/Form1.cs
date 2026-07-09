@@ -104,8 +104,13 @@ namespace WinForms_19
 
         private void myRefresh()
         {
+                        //Refresh function
+        }
 
+        private void myLoad()
+        {
             //Refresh function
         }
+
     }
 }
