@@ -95,11 +95,6 @@ namespace WinForms_19
         private void btnEdit_Click(object sender, EventArgs e)
         {
             // Was hat sich auch geandert
-            // Was hat sich auch geandert
-            // Was hat sich auch geandert
-            // Was hat sich auch geandert
-            // Was hat sich auch geandert
-            // Was hat sich auch geandert
         }
     }
 }
