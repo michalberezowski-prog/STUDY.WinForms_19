@@ -37,6 +37,7 @@ namespace WinForms_19
             this.btnShowSelection = new System.Windows.Forms.Button();
             this.lblShowSelection = new System.Windows.Forms.Label();
             this.lblOutput = new System.Windows.Forms.Label();
+            this.btnEdit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbxName
@@ -114,11 +115,22 @@ namespace WinForms_19
             this.lblOutput.TabIndex = 7;
             this.lblOutput.Text = "lblOutput";
             // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(633, 380);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(94, 35);
+            this.btnEdit.TabIndex = 8;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.lblShowSelection);
             this.Controls.Add(this.btnShowSelection);
@@ -131,6 +143,7 @@ namespace WinForms_19
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
@@ -143,6 +156,7 @@ namespace WinForms_19
         private System.Windows.Forms.Button btnShowSelection;
         private System.Windows.Forms.Label lblShowSelection;
         private System.Windows.Forms.Label lblOutput;
+        private System.Windows.Forms.Button btnEdit;
     }
 }
 
